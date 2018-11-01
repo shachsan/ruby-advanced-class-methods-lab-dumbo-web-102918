@@ -42,6 +42,8 @@ class Song
       return song
     else
       self.create_by_name(name)
+      
+    end
 
   end
 
