@@ -59,6 +59,6 @@ class Song
     self.all.sort_by {|song|song.name.downcase}
   end
 
-  ### Create 
+  ### Create new song 
 
 end
