@@ -71,7 +71,7 @@ class Song
   end
 
 
-  ###Create new song from filename and save it 
+  ###Create new song from filename and save it in class variable
   def self.create_from_filename(filename)
 
   end
