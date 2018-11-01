@@ -60,6 +60,6 @@ class Song
   end
 
   ### Create new song from filename
-  def self.new_from_filename
+  def self.new_from_filename(filename)
 
 end
