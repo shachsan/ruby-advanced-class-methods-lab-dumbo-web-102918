@@ -59,6 +59,7 @@ class Song
     self.all.sort_by {|song|song.name.downcase}
   end
 
-  ### Create new song from filename 
+  ### Create new song from filename
+  def self.
 
 end
