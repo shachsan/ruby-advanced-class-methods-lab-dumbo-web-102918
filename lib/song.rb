@@ -66,7 +66,7 @@ class Song
     song_name = song_info[1].split(".").first
     song = self.new
     song.name = song_name
-    song.artist
+    song.artist = artist 
   end
 
 end
