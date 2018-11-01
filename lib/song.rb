@@ -54,6 +54,6 @@ class Song
 
   end
 
-  def
+  def s
 
 end
