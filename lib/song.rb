@@ -69,6 +69,7 @@ class Song
     song.artist_name = artist
     song
   end
-  
+
+  def self.
 
 end
