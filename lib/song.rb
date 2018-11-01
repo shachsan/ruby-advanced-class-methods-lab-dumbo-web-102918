@@ -35,6 +35,7 @@ class Song
     # song.name = name
     # self.all << song
     # song
+    self.all <<
   end
 
   ###find song by name
