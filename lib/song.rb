@@ -13,7 +13,7 @@ class Song
   end
 
 
-  ###Create new song and 
+  ###Create new song and save in class variable
   def self.create
     song = self.new
     self.all << song
