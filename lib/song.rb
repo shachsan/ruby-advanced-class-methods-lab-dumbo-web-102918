@@ -73,6 +73,6 @@ class Song
     self.all <<  self.new_from_filename(filename)
   end
 
-  ###C
+  ###Clear all songs f
 
 end
