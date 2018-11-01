@@ -31,10 +31,6 @@ class Song
 
   ###create song and save in class variable
   def self.create_by_name(name)
-    # song = self.new
-    # song.name = name
-    # self.all << song
-    # song
     self.all << self.new_by_name(name)
     self.all.last
   end
