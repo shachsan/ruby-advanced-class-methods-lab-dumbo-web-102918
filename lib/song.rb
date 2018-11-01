@@ -33,7 +33,7 @@ class Song
   def self.create_by_name(name)
     song = self.new
     song.name = name
-    self.all << 
+    self.all << song
     song
   end
 
@@ -78,7 +78,7 @@ class Song
 
   ###Clear all songs from the class variable .
   def self.destroy_all
-    self.all.
+    self.all.clera 
   end
 
 end
