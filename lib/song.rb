@@ -22,6 +22,7 @@ class Song
     song = self.new
     song.name = name
     song
+      binding.pry
   end
 
   def self.create_by_name(name)
