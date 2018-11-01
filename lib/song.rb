@@ -65,6 +65,7 @@ class Song
     artist = song_info[0]
     song_name = song_info[1].split(".").first
     song = self.new
+    song.name = 
   end
 
 end
