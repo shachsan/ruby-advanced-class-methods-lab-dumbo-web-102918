@@ -31,10 +31,10 @@ class Song
 
   ###create song and save in class variable
   def self.create_by_name(name)
-    song = self.new
-    song.name = name
-    self.all << song
-    song
+    # song = self.new
+    # song.name = name
+    # self.all << song
+    # song
   end
 
   ###find song by name
@@ -78,7 +78,7 @@ class Song
 
   ###Clear all songs from the class variable .
   def self.destroy_all
-    self.all.clear 
+    self.all.clear
   end
 
 end
